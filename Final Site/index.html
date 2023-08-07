@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Dawa">
+    <title>Homepage</title>
+    <link href="index.css" rel="stylesheet" type="text/css">
+    <!-- Add a cool font from Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="header">
+        <nav>
+            <h1 class="logo">Dawa</h1>
+            <ul>
+                <li><a href="index.html"><span>Home</span></a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="blog.html">Blog</a></li>
+            </ul>
+            <hr>
+        </nav>
+        <div class="details">
+            <div class="image">
+                <img src="Images/profilepic.jpg" class="profile" alt="profile">
+            </div>
+            <div class="text">
+                <h1>Welcome to my Homepage.<br> I'm <span class="name">Dawa <span>Lama</span></span></h1>
+                <p>
+                    This is my official homepage of this website that showcases all
+                    <br> the details and things I'm interested in.
+                </p>
+                <a href="#" class="button" id="lets-talk-button">Let's Talk</a>
+            </div>
+        </div>
+        <footer>
+            <div class="footer-content">
+                <p>© 2023 Dawa Lama. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="https://github.com/Lamadaw10" target="_blank">GitHub</a>
+                    <a href="https://www.linkedin.com/in/lama-dawa-4979a5272/" target="_blank">LinkedIn</a>
+                    <a href="mailto:ldawa23@tbc.edu.np" target="_blank">Email</a>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script>
+        const letsTalkButton = document.getElementById('lets-talk-button');
+        letsTalkButton.addEventListener('click', function () {
+            alert('Thank you for wanting to talk! Please reach out to me at ldawa23@tbc.edu.np');
+        });
+    </script>
+</body>
+</html>

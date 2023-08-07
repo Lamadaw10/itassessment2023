@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f0f0f0;
+}
+
+.header {
+    position: relative;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)), url('/Final Site/Images/image-from-rawpixel-id-2368477-jpeg.jpg');
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding-top: 80px;
+}
+
+nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: transparent;
+    padding: 20px 40px;
+}
+
+nav .logo {
+    font-size: 30px;
+    font-weight: 800;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+nav ul li {
+    margin: 0 55px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+}
+
+nav ul li span {
+    color: black;
+}
+
+nav ul li a:hover {
+    color: #ffcc00;
+    text-decoration: underline;
+}
+
+.resume-section {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 40px;
+}
+
+.resume-section h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: aqua;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table td, table th {
+    padding: 10px;
+    border: 3px solid black;
+}
+
+table th {
+    font-size: 18px;
+    text-align: center;
+}
+
+table td {
+    font-size: 16px;
+    color: aqua;
+}
+
+table td:first-child {
+    font-weight: bold;
+}
+
+table td:last-child {
+    text-align: center;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.footer-content {
+    max-width: 900px;
+    margin: auto;
+}
+
+.footer-content p {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
